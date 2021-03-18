@@ -8,7 +8,7 @@ public class A {
     String[] my_array;
 
     public A() {
-        this.my_array = new String[]{ "1", "2", "3", "4"};
+        this.my_array = new String[]{ "10", "20", "30", "40"};
     }
 
     public List<String> my_method() {
