@@ -6,4 +6,5 @@ public class Application {
         B b_class = new B();
         b_class.my_method(a_class.my_method());
     }
+
 }
