@@ -3,12 +3,14 @@ package models;
 import java.util.ArrayList;
 import java.util.List;
 
-
-public class A {
+public class A extends Parent{
     String[] my_array;
 
     public A() {
+    	super("A");
+    	
         this.my_array = new String[]{ "10", "20", "30", "40"};
+        LOGGER.info(String.format("Новый пустой экземпляр класса %s%n", getClass().getName()));
     }
 
     public List<String> my_method() {
