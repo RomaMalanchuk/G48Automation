@@ -19,8 +19,8 @@ public abstract class BaseTest {
         driver.get("https://github.com/login");
     }
 
-    @After
-    public void exit() {
-        driver.quit();
-    }
+   // @After
+    //public void exit() {
+      //  driver.quit();
+   // }
 }
