@@ -21,7 +21,7 @@
                 <version>2.12.4</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <key>value</key>
+                        <webdriver.chrome.driver>${pom.basedir}/src/main/resources/drivers/chrome/89.0/chromedriver</webdriver.chrome.driver>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
