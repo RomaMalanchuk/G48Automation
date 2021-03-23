@@ -21,7 +21,7 @@
                 <version>2.12.4</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <webdriver.chrome.driver>${pom.basedir}/src/main/resources/drivers/chrome/89.0/chromedriver</webdriver.chrome.driver>
+                        <webdriver.chrome.driver>${project.basedir}/src/main/resources/drivers/chrome/89.0/chromedriver.exe</webdriver.chrome.driver>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
