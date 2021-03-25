@@ -22,5 +22,4 @@ public abstract class BaseTest {
    // @After
     //public void exit() {
       //  driver.quit();
-   // }
-}
+    }
